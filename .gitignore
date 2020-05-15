@@ -5,7 +5,12 @@
 /.pnp
 .pnp.js
 
-#.env-cmdrc
+# .env-cmdrc
+
+# .env
+# .env.development
+# .env.production
+# .env.staging
 
 # testing
 /coverage

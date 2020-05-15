@@ -12,9 +12,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "env-cmd -e dev react-scripts start",
-    "build:sit": "env-cmd -e staging react-scripts build",
-    "build:prod": " env-cmd -e prod react-scripts build",
+    "start": "react-scripts start",
+    "start:local": "env-cmd -f .env.local react-scripts start",
+    "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
